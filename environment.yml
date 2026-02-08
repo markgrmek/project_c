@@ -1,0 +1,12 @@
+name: project_c_env
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - obspy
+  - pandas
+  - pytorch
+  - ipykernel
+  - scikit-learn
+  - tqdm
+  - matplotlib
