@@ -1,9 +1,6 @@
 import math
-
 import numpy as np
 from matplotlib import mlab
-
-
 
 def _nearest_pow_2(x):
     """
