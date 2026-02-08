@@ -13,12 +13,13 @@ It is **highly recommended to use Conda** to manage the Python environment and d
 ```bash
 conda env create -f environment.yml
 conda activate my_env
+```
 
 ## Data Preparation
 
-- The training data can be obtained using the script data/waveform_fetch.py
-- The original event dataset is filtered using filter_events.py (note: only needs to be run once)
+- The training data is obtained using the script [waveform_fetch.py](data/waveform_fetch.py)
+- The original seismic event dataset is filtered using [filter_events.py](data/filter_events.py) (only needs to be run once)
 
 ## Model Training
-- CNN Model: Training and evaluation are done in CNN.ipynb
-- PCA+SVM Model: raining and evaluation are done in PCA_SVM.ipynb
+- CNN Model: Training and evaluation are done in [CNN.ipynb](CNN.ipynb)
+- PCA+SVM Model: Training and evaluation are done in [PCA_SVM.ipynb](PCA_SVM.ipynb)
