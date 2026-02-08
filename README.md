@@ -2,26 +2,23 @@
 
 **Authors: Saeid Zarifikoliaee and Mark Grmek**
 
-**Supervised by: Prof. Dr.-Ing. Rupert Klein**
+This repository provides code and resources for training and evaluating two machine learning models—a Convolutional Neural Network (CNN) and a PCA+SVM model—designed to classify seismic events according to their origin, distinguishing between anthropogenic and natural sources.
 
-**Freie Universität Berlin, December 2024**
+[Full Project Report](report/report.pdf)
 
-[Full report](Report.pdf)
+## Environment Setup
 
-## Abstract
+It is **highly recommended to use Conda** to manage the Python environment and dependencies. To create the environment from the provided YAML file:
 
-*The distinction between natural and anthropogenic seismic events represents an important task within the
-field of geological observation and surveying. Historically, this task demanded considerable time and expertise,
-necessitating the trained eye of experienced professionals. However, with the rapid advancement of
-Artificial Intelligence (AI), there emerges a promising prospect of possibly transferring this task to computers
-entirely which could potentially enable better insight into natural seismic activity, thereby facilitating
-more accurate predictions and proactive warning systems for future events. In this study, we explore and
-compare two machine learning methodologies for the classification of seismic events: Convolutional Neural
-Networks (CNNs) and Principal Component Analysis combined with Support Vector Machines (PCASVM).
-Although CNNs demonstrate superior accuracy and robustness, their computational demands are
-significantly higher. In contrast, PCA-SVM offers a computationally efficient solution with competitive
-performance, making it a viable option for real-time applications. By analyzing these approaches, this work
-provides a comprehensive framework for balancing accuracy and efficiency in seismic event classification,
-laying the groundwork for future advancements in automated geological monitoring systems.
-Keywords: seismic filtering, convolutional neural network, support vector machine, principal component
-analysis, machine learning, time series analysis.*
+```bash
+conda env create -f environment.yml
+conda activate my_env
+
+## Data Preparation
+
+- The training data can be obtained using the script data/waveform_fetch.py
+- The original event dataset is filtered using filter_events.py (note: only needs to be run once)
+
+## Model Training
+- CNN Model: Training and evaluation are done in CNN.ipynb
+- PCA+SVM Model: raining and evaluation are done in PCA_SVM.ipynb
