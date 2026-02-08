@@ -6,6 +6,8 @@
 
 **Freie Universität Berlin, December 2024**
 
+[Full report](Report.pdf)
+
 ## Abstract
 
 *The distinction between natural and anthropogenic seismic events represents an important task within the
