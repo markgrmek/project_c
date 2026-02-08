@@ -12,7 +12,7 @@ It is **highly recommended to use Conda** to manage the Python environment and d
 
 ```bash
 conda env create -f environment.yml
-conda activate my_env
+conda activate project_c_env
 ```
 
 ## Data Preparation
