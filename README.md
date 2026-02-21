@@ -1,6 +1,6 @@
 # Machine Learning Approach for Classifying Natural and Anthropogenic Seismic Events
 
-**Authors: [Saeid Zarifikoliaee](https://github.com/saeidzk) and [Mark Grmek](https://github.com/markgrmek)**
+**Co-athor: [Saeid Zarifikoliaee](https://github.com/saeidzk)**
 
 This repository provides code and resources for training and evaluating two machine learning models—a Convolutional Neural Network (CNN) and a PCA+SVM model—designed to classify seismic events according to their origin, distinguishing between anthropogenic and natural sources.
 
