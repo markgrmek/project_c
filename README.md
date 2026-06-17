@@ -4,7 +4,7 @@
 
 This repository provides code and resources for training and evaluating two machine learning models—a Convolutional Neural Network (CNN) and a PCA+SVM model—designed to classify seismic events according to their origin, distinguishing between anthropogenic and natural sources.
 
-All the methods and resources used for this project are described in detail in the [Project Report](report/report.pdf)
+All the methods and resources used for this project are described in detail at [https://doi.org/10.5281/zenodo.20730795](https://doi.org/10.5281/zenodo.20730795)
 
 ## Environment Setup
 
